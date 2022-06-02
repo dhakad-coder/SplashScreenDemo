@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SplashScreenDemo</string>
+    <string name="you_are_awesome">You are awesome!</string>
+    <string name="title_activity_home" translatable="false">Home</string>
+</resources>
