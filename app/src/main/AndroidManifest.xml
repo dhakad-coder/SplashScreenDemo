@@ -13,12 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SplashScreenDemo"
         tools:targetApi="31">
+
         <activity
-            android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
-            android:exported="false" />
+            android:name=".activities.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+
         <activity
-            android:name=".SplashActivity"
+            android:name=".activities.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home" />
+
+        <activity
+            android:name=".activities.SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -26,6 +33,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
