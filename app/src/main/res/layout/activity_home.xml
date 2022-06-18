@@ -12,21 +12,46 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dimen_30"
         android:gravity="center_horizontal"
-        android:text="@string/you_are_awesome" />
+        android:text="@string/you_are_awesome"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/tv_label_age"
+    <Button
+        android:id="@+id/btn_mvp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dimen_30"
-        android:gravity="center_horizontal"
-        android:text="@string/you_are_awesome" />
+        android:layout_marginStart="@dimen/dimen_30"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/dimen_30"
+        android:text="@string/mvp" />
+
+    <Button
+        android:id="@+id/btn_mvvm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_30"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/dimen_30"
+        android:text="@string/mvvm" />
+
+    <Button
+        android:id="@+id/btn_mvvm_data_binding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_30"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/dimen_30"
+        android:text="@string/mvvm_data_binding" />
 
     <Button
         android:id="@+id/btn_logout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/dimen_30"
+        android:layout_marginStart="@dimen/dimen_30"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/dimen_30"
+        android:background="@color/red"
         android:text="@string/logout" />
 
 </LinearLayout>

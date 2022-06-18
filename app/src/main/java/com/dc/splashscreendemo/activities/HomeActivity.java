@@ -11,6 +11,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.dc.splashscreendemo.R;
+import com.dc.splashscreendemo.mvp.MVPActivity;
+import com.dc.splashscreendemo.mvvm.MVVMActivity;
+import com.dc.splashscreendemo.mvvm_databinding.MvvmWaterBottleActivity;
 import com.dc.splashscreendemo.utils.MySharedPref;
 
 public class HomeActivity extends AppCompatActivity {
@@ -23,17 +26,42 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         //TODO start here with your own login
         TextView tvName = findViewById(R.id.tv_label_name);
-        TextView tvAge = findViewById(R.id.tv_label_age);
         Button btnLogout = findViewById(R.id.btn_logout);
+        Button btnMvp = findViewById(R.id.btn_mvp);
+        Button btnMvvm = findViewById(R.id.btn_mvvm);
+        Button btnDataBinding = findViewById(R.id.btn_mvvm_data_binding);
 
         MySharedPref pref = MySharedPref.getPreferences(this);
-        tvName.setText(pref.getUserName());
-        tvAge.setText(String.valueOf(pref.getAge()));
+        tvName.setText("Name " + pref.getUserName() + "\nAge " + pref.getAge());
 
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 displayAlertDialog();
+            }
+        });
+
+        btnMvp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, MVPActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnMvvm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, MVVMActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnDataBinding.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, MvvmWaterBottleActivity.class);
+                startActivity(intent);
             }
         });
     }
@@ -52,6 +80,7 @@ public class HomeActivity extends AppCompatActivity {
                     }
                 }).setNegativeButton(R.string.no, null).show();
     }
+
 
    /* @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {

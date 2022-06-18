@@ -5,9 +5,15 @@
       <map>
         <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/drawable/bg_gradient.xml" value="0.1895" />
+        <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/drawable/ic_bottle.xml" value="0.1385" />
         <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/drawable/splash_background.xml" value="0.1895" />
-        <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/layout/activity_home.xml" value="0.1259259259259259" />
+        <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/layout/activity_mvpactivity.xml" value="0.1" />
+        <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/layout/activity_mvvm_data_binding.xml" value="0.12360688956433637" />
+        <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/layout/activity_mvvm_water_bottle.xml" value="0.12360688956433637" />
+        <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/layout/activity_mvvmactivity.xml" value="0.12360688956433637" />
         <entry key="..\:/Shyam/AndroidStudioProjects/SplashScreenDemo/app/src/main/res/layout/activity_splash.xml" value="0.1259259259259259" />
       </map>
     </option>

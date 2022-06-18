@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">SplashScreenDemo</string>
     <string name="you_are_awesome">You are awesome!</string>
     <string name="title_activity_home" translatable="false">Home</string>
@@ -11,8 +11,8 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="name">Name</string>
-    <string name="age">Age</string>
+    <string name="name">Name </string>
+    <string name="age">Age </string>
     <string name="save">Save</string>
     <string name="student_checkboxStudent" />
     <string name="student_checkbox">Student</string>
@@ -24,4 +24,14 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="login">Login</string>
+    <string name="brand">Brand:</string>
+    <string name="packed">"Packed:"</string>
+    <string name="ltr">"ltr"</string>
+    <string name="mvvm">MVVM</string>
+    <string name="mvp">MVP</string>
+    <string name="mvc">MVC</string>
+    <string name="mvvm_data_binding">MVVM Data Binding</string>
+    <string name="title_activity_mvp">MVP</string>
+    <string name="title_activity_mvvm">MVVM</string>
+    <string name="title_activity_data_binding">Data Binding</string>
 </resources>

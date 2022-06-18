@@ -9,6 +9,7 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.dc.splashscreendemo.R;
+import com.dc.splashscreendemo.mvvm_databinding.MvvmWaterBottleActivity;
 import com.dc.splashscreendemo.utils.MySharedPref;
 
 @SuppressLint("CustomSplashScreen")
