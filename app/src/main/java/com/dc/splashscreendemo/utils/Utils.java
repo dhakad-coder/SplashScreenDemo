@@ -3,6 +3,9 @@ package com.dc.splashscreendemo.utils;
 import java.text.DecimalFormat;
 import java.util.Random;
 
+/**
+ * this class is used to reuse the code
+ */
 public class Utils {
     /**
      * @param inputAge takes String age
@@ -42,6 +45,10 @@ public class Utils {
         return r.nextInt(high - low) + low;
     }
 
+    /**
+     * @param index
+     * @return
+     */
     public static String getBrandName(int index) {
         switch (index) {
             case 1:
